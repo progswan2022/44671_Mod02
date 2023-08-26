@@ -5,3 +5,29 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+PS C:\Users\erins\OneDrive\Desktop\MS_Data_analytics\44-671\Module02\44671_Mod02> & C:/Users/erins/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/erins/OneDrive/Desktop/MS_Data_analytics/44-671/Module02/44671_Mod02/multiple_processes.py
+2023-08-25 19:40:24,179 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-08-25 at 07:40 PM
+  Operating System: nt Windows 10
+  Python Version:   3.10.11
+  Path to Interpreter:  C:\Users\erins\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+======================================================================
+
+2023-08-25 19:40:24,181 - INFO - Called recreate_database().
+2023-08-25 19:40:24,181 - INFO - Called drop_table().
+2023-08-25 19:40:24,194 - INFO - Table 'pets' dropped successfully.
+2023-08-25 19:40:24,194 - INFO - Called create_table().
+2023-08-25 19:40:24,207 - INFO - Table 'pets' created successfully.
+2023-08-25 19:40:24,385 - INFO - Called process_one().
+2023-08-25 19:40:24,386 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-08-25 19:40:24,409 - INFO - Called process_two().
+2023-08-25 19:40:24,410 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-08-25 19:40:24,433 - INFO - Called process_three().
+2023-08-25 19:40:24,433 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-08-25 19:40:27,402 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-08-25 19:40:29,959 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
+2023-08-25 19:40:29,960 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-08-25 19:40:30,006 - ERROR - ERROR while P3 inserting pet Emma: database is locked
+2023-08-25 19:40:30,008 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.

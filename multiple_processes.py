@@ -9,7 +9,7 @@ Run the app several times and notice the order of events.
 Is the order predictable?
 
 Modify the code to make each task take longer. 
-When the task duration is 3 seconds, we'll typically got concurrency errors 
+When the task duration is 3 seconds, we'll typically get concurrency errors 
 as multiple processes try to access the database at the same time.
 
 SQLite is designed for lightweight databases, and is not ideal for high concurrency applications. 

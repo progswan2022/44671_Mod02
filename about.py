@@ -18,6 +18,9 @@ To use, simply execute this script: `python about.py`
 @Author: Denise Case
 @Updated: 2023-08
 
+@Student: Erin Swan-Siegel
+@Date: 08-25-2023
+
 ==========================================================================
 
 """

@@ -1,3 +1,12 @@
+Exercise: 44-671 Module 02
+Student: Erin Swan-Siegel
+
+Streaming Process: Uses port 9999
+
+Create a fake stream of data. 
+Stream D&D Monster data from one file to another
+Source: https://www.kaggle.com/datasets/patrickgomes/dungeons-and-dragons-5e-monsters
+
 # streaming-02-multiple-processes
 
 > Multiple processes accessing a shared resource concurrently
