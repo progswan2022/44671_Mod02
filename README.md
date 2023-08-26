@@ -7,8 +7,6 @@ Create a fake stream of data.
 Stream D&D Monster data from one file to another
 Source: https://www.kaggle.com/datasets/patrickgomes/dungeons-and-dragons-5e-monsters
 
-# streaming-02-multiple-processes
-
 > Multiple processes accessing a shared resource concurrently
 
 ## Overview
@@ -88,6 +86,17 @@ To document results, clear the terminal, run the script, and paste all of the te
 Use out0.txt to document the first run. 
 
 Use out3.txt to document the second run.
+
+Document "Results_Document.txt" contains all Task Duration seconds variable trials
+
+## Assignment. Stream your own unique CSV data by modifying the example approach provided
+Create a new file process_streaming_ErinSwanSiegel.py
+Stream from your CSV file into a new file named out9.txt.
+Use the examples provided as the basis for your implementation. 
+Generate one record every 1-3 seconds. Let it run long enough to write ten or more records to out9.txt.
+    For the output file, either open a file for writing and have your code write to the file - or you can manually copy and paste into the output file.
+    Let us know which option you chose and why in your submission.
+Optional. After successfully completing your implementation of the example code on your own datafile, then you may copy your working code into another file (process_streaming_yourname99.py) and send the output to out99.txt (which should match out9.txt above). 
 
 
 -----
